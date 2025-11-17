@@ -1,0 +1,12 @@
+# Test repository format
+# Each line: PACKAGE: DEP1, DEP2, DEP3
+# Packages are uppercase Latin letters
+
+A: B, C
+B: D, E
+C: D, F
+D: G
+E: G
+F: G, H
+G:
+H:

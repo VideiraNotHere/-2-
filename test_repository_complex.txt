@@ -1,0 +1,17 @@
+# Complex test repository for Stage 3-5 testing
+# Multiple levels of dependencies
+
+A: B, C, D
+B: E, F
+C: F, G
+D: G, H
+E: I
+F: I, J
+G: J
+H: J, K
+I: L
+J: L
+K: L
+L:
+M: N
+N: M

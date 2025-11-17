@@ -1,0 +1,14 @@
+# Test repository with cyclic dependencies
+# A -> B -> C -> A (cycle)
+# Also includes filtering tests
+
+A: B, D
+B: C, E
+C: A, F
+D: G
+E: G
+F: G
+G:
+TEST_PACKAGE: H
+H: TEST_ANOTHER
+TEST_ANOTHER:
