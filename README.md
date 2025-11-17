@@ -4,13 +4,13 @@
 
 ```bash
 # Запуск с тестовым репозиторием
-python3 dep_visualizer.py конфиг_тест.json
+python3 2prak.py конфиг_тест.json
 
 # Запуск с циклическими зависимостями
-python3 dep_visualizer.py конфиг_циклы.json
+python3 2prak.py конфиг_циклы.json
 
 # Запуск с фильтрацией пакетов
-python3 dep_visualizer.py конфиг_фильтр.json
+python3 2prak.py конфиг_фильтр.json
 ```
 
 ### Основные возможности
@@ -115,13 +115,13 @@ B:
 
 ```bash
 # Простой тест
-python3 dep_visualizer.py конфиг_тест.json
+python3 2prak.py конфиг_тест.json
 
 # Циклические зависимости
-python3 dep_visualizer.py конфиг_циклы.json
+python3 2prak.py конфиг_циклы.json
 
 # Фильтрация пакетов
-python3 dep_visualizer.py конфиг_фильтр.json
+python3 2prak.py конфиг_фильтр.json
 ```
 
 ### Обработка ошибок
